@@ -1,0 +1,208 @@
+
+* {
+  color: #353535;
+}
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7%;
+}
+.icons-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15% 0;
+}
+.logo-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-container h6 {
+  font-size: 20px;
+  margin-top: -5%;
+}
+.links-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.links-container a {
+  font-size: 17px;
+}
+
+.dashboard-container {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3%;
+}
+.info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.info a {
+  font-size: 20px;
+}
+.dashboard-box {
+  border: 1px solid rgb(230, 230, 230);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.dashboard-box h4 {
+  font-size: 12px;
+  font-weight: 800;
+}
+.dashboard-box p {
+  font-size: 18px;
+}
+.dashboard-box p span {
+  color: red;
+}
+.dashboard-box a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.second-section {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.empty-box {
+  margin-bottom: 1rem;
+  border: 1px solid rgb(230, 230, 230);
+  height: 5rem;
+  width: 60%;
+}
+.box-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left {
+  width: 58%;
+  border: 1px solid rgb(230, 230, 230);
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  width: 40%;
+}
+.box {
+  border: 1px solid rgb(230, 230, 230);
+  height: 10rem;
+  width: 80%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box div {
+  align-items: center;
+  justify-content: center;
+}
+.back-button {
+  background: black;
+  border-radius: 25px;
+  padding: 1%;
+}
+.back-button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.third-section {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.third-section h1 {
+  font-size: 40px;
+}
+.third-section p {
+  font-size: 25px;
+  margin-top: -1%;
+}
+form {
+  margin-top: 4%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form p {
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+}
+form p span {
+  color: red;
+}
+
+label {
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+}
+label span {
+  color: red;
+  font-size: 20px;
+}
+input {
+  width: 35rem;
+  height: 2.5rem;
+  padding: 0 2%;
+}
+form button {
+  width: 60%;
+  background-color: black;
+  padding: 2% 3%;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+
+footer {
+  margin-top: 10%;
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+footer p {
+  opacity: 0.5;
+  font-size: 15px;
+}
+footer p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+footer a {
+  text-decoration: none;
+}
